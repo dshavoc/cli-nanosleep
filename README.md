@@ -9,7 +9,7 @@ This code will repeat nanosleep for the remaining time if it is interrupted, to 
 ## Usage
 `$ nanosleep [time] [debug]`
 
-time  - Positive long integer number of nanoseconds
+time  - Positive long integer number of nanoseconds (Default: 1000)
 
 debug - Any value, enabling debug output
 
